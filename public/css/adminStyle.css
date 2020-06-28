@@ -1,0 +1,71 @@
+body {
+    margin: 0 auto;
+    text-align: center;
+    font-family: 'Baloo 2', cursive;
+}
+
+h1, h2, p, ul, li {
+    padding: 0;
+    margin: 0;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: #000000;
+}
+
+/* ADMIN HEADER */
+
+#admin-header {
+    display: flex;
+}
+
+#admin-header > div {
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
+
+.admin-page-back-to-main {
+    width: 10%;
+    padding-left: 2%;
+}
+
+.admin-page-back-to-main > a:hover {
+    color: #b6a6a6;
+}
+
+.admin-page-title {
+    width: 80%;
+}
+
+.admin-page-user {
+    width: 10%;
+    padding-right: 2%;
+}
+
+.admin-page-user > a {
+    color: #1fb031;
+}
+
+.admin-page-user > a:hover {
+    color: #47f65d;
+}
+
+/* ADMIN BODY */
+
+
+.post-page-content > .post {
+    display: grid;
+}
+
+.short_desc {
+    margin: 0 auto;
+    max-width: 400px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}

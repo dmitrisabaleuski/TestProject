@@ -1,0 +1,40 @@
+body{
+    margin: 0 auto;
+    text-align: center;
+}
+h1, h2, p, ul, li{
+    padding: 0;
+    margin: 0;
+}
+ul{
+    list-style: none;
+}
+li{
+    list-style-type: none;
+}
+
+/*HEADER START*/
+
+header{
+    width: 100%;
+}
+
+/*HEADER END*/
+
+/*CONTENT START*/
+.short_desc {
+    margin: 0 auto;
+    max-width: 400px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+
+/*CONTENT END*/
+
+/*FOOTER START*/
+
+
+
+/*FOOTER END*/
